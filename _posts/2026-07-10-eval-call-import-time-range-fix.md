@@ -2,7 +2,7 @@
 layout: post
 title: "일정 기반 데이터 가져오기 화면의 시간대 입력 범위 제한 누락 문제 해결"
 date: 2026-07-10 18:00:00 +0900
-categories: [오류해결]
+categories: [오류해결, DevExtreme]
 tags: [Vue, DevExtreme, QueryDSL]
 ---
 

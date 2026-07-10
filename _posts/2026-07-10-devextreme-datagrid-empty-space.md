@@ -2,7 +2,7 @@
 layout: post
 title: "DevExtreme DataGrid 하단에 빈 공간이 남는 문제 원인과 정리"
 date: 2026-07-10 21:00:00 +0900
-categories: [오류해결]
+categories: [오류해결, DevExtreme]
 tags: [Vue, DevExtreme, 프론트엔드, 그리드]
 ---
 

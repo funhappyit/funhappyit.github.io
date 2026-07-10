@@ -2,7 +2,7 @@
 layout: post
 title: "실시간 랭킹 기능 하나 때문에 건드려야 했던 것들 — puzzle-leaderboard 기술 스택 정리"
 date: 2026-07-10 21:00:00 +0900
-categories: [사이드프로젝트]
+categories: [사이드프로젝트, puzzle-leaderboard]
 tags: [Spring Boot, Redis, MySQL, Redisson, Terraform, GitHub Actions, React]
 ---
 

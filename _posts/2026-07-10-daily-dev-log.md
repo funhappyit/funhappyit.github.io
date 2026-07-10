@@ -2,7 +2,7 @@
 layout: post
 title: "오늘 한 개발 작업 정리 (2026-07-10)"
 date: 2026-07-10 19:00:00 +0900
-categories: [개발작업]
+categories: [개발작업, 일일로그]
 tags: [Vue, DevExtreme, GitHub Pages, Jekyll]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "DevExtreme 마스터-디테일 그리드에서 엑셀 전체 다운로드가 조용히 멈추던 문제"
 date: 2026-07-10 18:00:00 +0900
-categories: [오류해결]
+categories: [오류해결, DevExtreme]
 tags: [Vue, DevExtreme, ExcelJS]
 ---
 
