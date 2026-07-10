@@ -6,4 +6,8 @@ plugins:
 lang: ko
 show_excerpts: true
 
+# 글 날짜가 빌드 서버의 실제 현재 시각보다 미래여도 게시되도록 허용
+# (Jekyll 기본값은 미래 날짜 글을 자동으로 숨김)
+future: true
+
 permalink: /:year/:month/:day/:title/
