@@ -6,8 +6,6 @@ title: Home
 <h1>{{ site.title }}</h1>
 <p>{{ site.description }}</p>
 
-<p><small>총 {{ site.posts.size }}개 글</small></p>
-
 <h2>🐛 오류 해결</h2>
 <ul>
   {% for post in site.posts %}
