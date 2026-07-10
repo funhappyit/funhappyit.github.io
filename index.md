@@ -10,6 +10,7 @@ title: Home
 
 {% assign error_posts = site.posts | where_exp: "post", "post.categories contains '오류해결'" %}
 {% assign dev_posts = site.posts | where_exp: "post", "post.categories contains '개발작업'" %}
+{% assign side_posts = site.posts | where_exp: "post", "post.categories contains '사이드프로젝트'" %}
 
 <div class="post-section">
   <h2>🐛 오류 해결</h2>
@@ -32,6 +33,22 @@ title: Home
   {% if dev_posts.size > 0 %}
   <ul class="post-card-list">
     {% for post in dev_posts %}
+    <li class="post-card">
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="empty-state">아직 작성된 글이 없습니다.</p>
+  {% endif %}
+</div>
+
+<div class="post-section">
+  <h2>🚀 사이드 프로젝트</h2>
+  {% if side_posts.size > 0 %}
+  <ul class="post-card-list">
+    {% for post in side_posts %}
     <li class="post-card">
       <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
