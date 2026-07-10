@@ -24,6 +24,11 @@ title: Projects
           <i class="fas fa-arrow-up-right-from-square"></i> Demo
         </a>
         {% endif %}
+        {% if p.api %}
+        <a class="project-btn" href="{{ p.api }}" target="_blank" rel="noopener">
+          <i class="fas fa-server"></i> API
+        </a>
+        {% endif %}
         {% if p.post %}
         <a class="project-btn" href="{{ p.post | relative_url }}">
           <i class="fas fa-pen"></i> 블로그 글
