@@ -1,13 +1,190 @@
-title: 한유경 개발 블로그
-description: 개발하며 겪은 오류/해결과 하루 작업 기록
-theme: minima
-plugins:
-  - jekyll-feed
+# The Site Configuration
+
+# Import the theme
+theme: jekyll-theme-chirpy
+
+# The language of the webpage
 lang: ko
-show_excerpts: true
 
-# 글 날짜가 빌드 서버의 실제 현재 시각보다 미래여도 게시되도록 허용
-# (Jekyll 기본값은 미래 날짜 글을 자동으로 숨김)
-future: true
+# Change to your timezone
+timezone: Asia/Seoul
 
-permalink: /:year/:month/:day/:title/
+# jekyll-seo-tag settings
+title: 한유경 개발 블로그
+
+tagline: 개발하며 겪은 오류/해결과 하루 작업 기록
+
+description: >-
+  오류 해결, 개발 작업, 사이드 프로젝트를 정리하는 개인 개발 블로그입니다.
+
+# Fill in the protocol & hostname for your site.
+url: "https://amiesoft-hyk.github.io"
+
+github:
+  username: amiesoft-hyk
+
+twitter:
+  username:
+
+social:
+  name: 한유경
+  email:
+  fediverse_handle:
+  links:
+    - https://github.com/amiesoft-hyk
+
+# Site Verification Settings
+webmaster_verifications:
+  google:
+  bing:
+  alexa:
+  yandex:
+  baidu:
+  facebook:
+
+# Web Analytics Settings
+analytics:
+  google:
+    id:
+  goatcounter:
+    id:
+  umami:
+    id:
+    domain:
+  matomo:
+    id:
+    domain:
+  cloudflare:
+    id:
+  fathom:
+    id:
+
+# Page views settings
+pageviews:
+  provider:
+
+# Prefer color scheme setting.
+theme_mode: # [light | dark]
+
+# The CDN endpoint for media resources.
+cdn:
+
+# the avatar on sidebar, support local or CORS resources
+avatar:
+
+# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
+social_preview_image:
+
+# boolean type, the global switch for TOC in posts.
+toc: true
+
+actions:
+  edit_post:
+    enabled: false
+    url: ""
+    static_url: false
+
+comments:
+  provider: # [disqus | utterances | giscus]
+  disqus:
+    shortname:
+  utterances:
+    repo:
+    issue_term:
+  giscus:
+    repo:
+    repo_id:
+    category:
+    category_id:
+    mapping:
+    strict:
+    input_position:
+    lang:
+    reactions_enabled:
+
+# Self-hosted static assets, optional
+assets:
+  self_host:
+    enabled:
+    env:
+
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+    deny_paths:
+
+paginate: 10
+
+# The base URL of your site
+baseurl: ""
+
+# ------------ The following options are not recommended to be modified ------------------
+
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - purgecss.js
+  - "*.config.js"
+  - "package*.json"
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
