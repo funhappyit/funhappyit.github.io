@@ -18,10 +18,10 @@ description: >-
   오류 해결, 개발 작업, 사이드 프로젝트를 정리하는 개인 개발 블로그입니다.
 
 # Fill in the protocol & hostname for your site.
-url: "https://amiesoft-hyk.github.io"
+url: "https://funhappyit.github.io"
 
 github:
-  username: amiesoft-hyk
+  username: funhappyit
 
 twitter:
   username:
@@ -31,7 +31,7 @@ social:
   email:
   fediverse_handle:
   links:
-    - https://github.com/amiesoft-hyk
+    - https://github.com/funhappyit
 
 # Site Verification Settings
 webmaster_verifications:

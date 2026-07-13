@@ -128,4 +128,4 @@ Render 무료 플랜은 일정 시간 요청이 없으면 인스턴스가 슬립
 
 인증 하나만 세 갈래로 나뉘는 것부터 시작해서, 다중 서버 브로드캐스팅, 트랜잭션 커밋 순서, Windows-리눅스 줄바꿈 문제까지 — 각각은 흔한 이슈들이지만 한 프로젝트 안에서 다 겹치니까 생각보다 손이 많이 갔다. 다음엔 GitHub Actions로 빌드/테스트 파이프라인을 붙이고, 로그인부터 채팅·알림까지 이어지는 E2E 테스트를 자동화하는 걸 남겨두고 있다.
 
-**저장소**: [github.com/amiesoft-hyk/chat-notify](https://github.com/amiesoft-hyk/chat-notify)
+**저장소**: [github.com/funhappyit/chat-notify](https://github.com/funhappyit/chat-notify)

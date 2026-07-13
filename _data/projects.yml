@@ -2,17 +2,17 @@
   title: "🧩 Puzzle Leaderboard"
   description: 실시간 퍼즐 게임 점수 집계 및 랭킹 API 서버. 동시성 제어, Redis 캐싱, 분산 환경 배포를 다룬 프로젝트.
   tags: [Java, Spring Boot, Redis]
-  github: https://github.com/amiesoft-hyk/puzzle-leaderboard
+  github: https://github.com/funhappyit/puzzle-leaderboard
   demo: https://puzzle-leaderboard-five.vercel.app
   api: https://puzzle-leaderboard-jg58.onrender.com
   post: /posts/puzzle-leaderboard-tech-stack/
-  image: https://opengraph.githubassets.com/1/amiesoft-hyk/puzzle-leaderboard
+  image: https://opengraph.githubassets.com/1/funhappyit/puzzle-leaderboard
 
 - name: chat-notify
   title: "💬 Chat Notify"
   description: 실시간 채팅 + SSE 알림 서버. WebSocket, Redis Pub/Sub, JWT 인증을 적용.
   tags: [Java, WebSocket, Redis]
-  github: https://github.com/amiesoft-hyk/chat-notify
+  github: https://github.com/funhappyit/chat-notify
   demo:
   post:
-  image: https://opengraph.githubassets.com/1/amiesoft-hyk/chat-notify
+  image: https://opengraph.githubassets.com/1/funhappyit/chat-notify
